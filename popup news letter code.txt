@@ -1,0 +1,19 @@
+<div id="newslater-popup" class="mfp-hide white-popup-block open align-center">
+  <div class="nl-popup-main">
+	<div class="nl-popup-inner">
+	  <div class="newsletter-icon">
+		<img src="{% static 'assets/images/newsletter-icon.png' %}" alt="Pioneer">
+	  </div>
+	  <div class="nl-popup-title">Hello!</div>
+	  <div class="sub-text">Sign up to Our Newsletter <br>to get <b>15%</b> Off <br>Hurry, Offer Ends, in <b>5</b> Days</div>
+	  <div class="email-box-main">
+		<form>
+		  <div class="email-box">
+			<input type="text" placeholder="Enter email....." class="input-text" required>
+			<button class="btn-white mt-20 email-btn">sign up</button>
+		  </div>
+		</form>
+	  </div>
+	</div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="col-md-4" id="payment_btn">
+<div class="pm-button"> 
+<button type="button" class="btn btn-outline-success"><a href="https://www.payumoney.com/paybypayumoney/#/88EB317649315EA26D714337FF19083F" class="btn_pay"><i class="fa fa-inr"></i>PayU Money</a></button>
+</div>
+</div>
+
+
+
+<div class="col-md-4" id="payment_btn">
+         <div class="pm-button"><a href="https://www.payumoney.com/paybypayumoney/#/88EB317649315EA26D714337FF19083F" class="btn_pay"><i class="fa fa-inr"></i>PayU Money</a></div>
+      </div>

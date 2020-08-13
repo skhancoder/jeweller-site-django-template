@@ -1,0 +1,590 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>RJ Jewels</title>
+	<!-- SEO Meta
+  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+	<link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/jquery-ui.css' %} " rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/owl.carousel.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/fotorama.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/custom.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/responsive.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/images/favicon.png' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'assets/css/changes.css' %}" rel="stylesheet" type="text/css" />
+	<style>
+		.btn btn-outline-success {
+			background-color: blue;
+			padding: 100px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="main">
+		<!-- HEADER START -->
+		<header class="navbar navbar-custom" id="header">
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-inner">
+						<div class="row">
+							<div class="col-md-4">
+
+							</div>
+							<div class="col-md-4">
+								<div class="navbar-header float-none-sm">
+									<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button"><i
+											class="fa fa-bars"></i></button>
+									<a class="navbar-brand page-scroll" href="/">
+										<img class="logo" src="{% static 'assets/images/logo.png' %}">
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4" id="headcon">
+								<div class="headercontact">
+									<img src="{%static 'assets/images/phone-icon.png'%}" width="30px">
+									<a href="tel:9871333914">Call us</a>
+								</div>
+							</div>
+							<!--Payu money code-->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div id="menu" class="navbar-collapse collapse left-side">
+
+						<ul class="nav navbar-nav navbar-left">
+							<li class="level"><a href="/" class="page-scroll">Home</a></li>
+							<li class="level"><a href="about" class="page-scroll">About Us</a></li>
+							<li class="level">
+								<span class="opener plus"></span>
+								<a href="jewellery" class="page-scroll">Jewellery</a>
+								<div class="megamenu mobile-sub-menu">
+									<div class="megamenu-inner-top">
+										<ul class="sub-menu-level1">
+											<li class="level2">
+												<ul class="sub-menu-level2 ">
+													<li class="level3"><a href="gold">Gold</a></li>
+													<li class="level3"><a href="diamond">Diamond</a></li>
+													<li class="level3"><a href="javascript:void(0);">Solitaire</a></li>
+													<li class="level3"><a href="platinum">Platinum</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="level"><a href="coins" class="page-scroll">Coins</a></li>
+							<li class="level"><a href="gemstones" class="page-scroll">Gemstones</a></li>
+							<li class="level"><a href="gifts" class="page-scroll">Corporate Gifts</a></li>
+							<li class="level"><a href="https://www.payumoney.com/paybypayumoney/#/88EB317649315EA26D714337FF19083F"
+									class="page-scroll">Payment</a></li>
+							<li class="level"><a href="contact" class="page-scroll">Contact Us</a></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER END -->
+
+		<!-- POP UP NEWSLETTERCODE-->
+
+		<!-- BANNER STRAT -->
+		<div class="banner">
+			<div class="main-banner">
+				<div class="banner-1">
+					<img src="{% static 'assets/images/banner1.jpg' %}" alt="Pioneer">
+				</div>
+				<div class="banner-2">
+					<img src="{% static 'assets/images/banner2.jpg' %}" alt="Pioneer">
+				</div>
+			</div>
+		</div>
+		<!-- BANNER END -->
+
+		<!-- CONTAIN START -->
+		<section>
+			<div class="container">
+				<div class="sub-banner-block center-xs">
+					<div class="row m-0">
+						<div class="col-sm-4 p-0">
+							<div class="sub-banner sub-banner1" style="visibility: visible; animation-name: zoomIn;">
+								<a>
+									<img alt="Pioneer" src="{% static 'assets/images/sub-banner1.jpg' %}">
+									<div class="sub-banner-detail">
+										<div class="sub-banner-title">Solitaire Jewellery</div>
+										<div class="sub-banner-subtitle">Design Your Beauty</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4 p-0">
+							<div class="sub-banner sub-banner2" style="visibility: visible; animation-name: zoomIn;">
+								<a>
+									<img alt="Pioneer" src="{% static 'assets/images/sub-banner2.jpg' %}">
+									<div class="sub-banner-detail">
+										<div class="sub-banner-title">Platinum Rings</div>
+										<div class="sub-banner-subtitle">Everday Desire</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4 p-0">
+							<div class="sub-banner sub-banner3" style="visibility: visible; animation-name: zoomIn;">
+								<a>
+									<img alt="Pioneer" src="{% static 'assets/images/sub-banner3.jpg'%}">
+									<div class="sub-banner-detail">
+										<div class="sub-banner-title">Diamond Bangles!</div>
+										<div class="sub-banner-subtitle">Evergreen Shine</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--  Featured Products Slider Block Start  -->
+		<section class="ptb-95">
+			<div class="container">
+				<div class="product-slider owl-slider">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="heading-part align-center mb-40">
+								<h2 class="main_title">Featured Products</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="product-slider-main position-r">
+							<div class="owl-carousel pro_cat_slider">
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/1.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/2.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/3.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/4.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/5.jpg' %} " alt=Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/6.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/7.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/8.jpg'%}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/9.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/10.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="product-item">
+										<div class="product-image">
+											<a href="javascript:void(0);">
+												<img src="{% static 'assets/images/11.jpg' %}" alt="Pioneer">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--  Featured Products Slider Block End  -->
+
+		<!-- category-banner Start -->
+		<section class="cate-banner-main center-sm">
+			<div class="row m-0">
+				<div class="col-md-4 p-0">
+					<div class="cate-banner">
+						<div class="cate-banner-img">
+							<img src="{% static 'assets/images/category1.jpg'%}" width="100%" alt="">
+						</div>
+						<div class="cate-banner-bg">
+							<img src="{% static 'assets/images/category4.jpg' %}" width="100%" alt="">
+							<div class="cate-banner-detail align-center ">
+								<div class="cate-banner-inner">
+									<div class="cate-banner-info">
+										<div class="cate-banner-title"> New Arrivals</div>
+										<div class="cate-banner-desc">Our regular supply of exquisite collection of Bangles, Necklaces,
+											Rings, Chains etc. will always be full of new ever changing designs</div>
+										<div class="cate-banner-more mt-30 mt-xs-20">
+											<a href="jewellery">More Information</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 p-0">
+					<div class="cate-banner cate-banner2">
+						<div class="cate-banner-img" style="width:100%">
+							<img src="{% static 'assets/images/category2.jpg' %}" width="100%" alt="">
+						</div>
+						<div class="cate-banner-bg">
+							<img src="{% static 'assets/images/category4.jpg' %}" width="100%" alt="">
+							<div class="cate-banner-detail align-center ">
+								<div class="cate-banner-inner">
+									<div class="cate-banner-info">
+										<div class="cate-banner-title">Ruby Emerald Collection</div>
+										<div class="cate-banner-desc">The fascinating green color emerald stone and red color Ruby stone
+											increases the diamond beauty</div>
+										<div class="cate-banner-more mt-30 mt-xs-20">
+											<a href="jewellery">More Information</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 p-0">
+					<div class="cate-banner">
+						<div class="cate-banner-img">
+							<img src="{% static 'assets/images/category3.jpg' %}" width="100%" alt="">
+						</div>
+						<div class="cate-banner-bg">
+							<img src="{% static 'assets/images/category4.jpg' %}" width="100%" alt="">
+							<div class="cate-banner-detail align-center ">
+								<div class="cate-banner-inner">
+									<div class="cate-banner-info">
+										<div class="cate-banner-title">Solitaire Collection</div>
+										<div class="cate-banner-desc">- Round Brilliants are the most popular diamond shape for engagement
+											rings and give off the most brilliance</div>
+										<div class="cate-banner-more mt-30 mt-xs-20">
+											<a href="jewellery">More Information</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- category-banner End -->
+
+
+		<section class="pb-95">
+
+		</section>
+
+		<!-- perellex-banner Start -->
+		<section>
+			<div class="perellex-banner">
+				<div class="container">
+					<div class="perellex-delail ptb-95 align-center">
+						<div class="perellex-subtitle mtb-20s">buy some jewellery ! discount </div>
+						<div class="perellex-title">Flat 15% Off on all Diamond Jewellery</div>
+						<a href="diamond" class="btn btn-color">Explore now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- perellex-banner Start -->
+
+		<section class="bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="client-main client-bg">
+							<div class="client-inner mtb-60 align-center">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="heading-part align-center mb-40">
+											<h2 class="main_title">Client Testimonial</h2>
+										</div>
+									</div>
+								</div>
+								<div id="client" class="owl-carousel">
+									<div class="item client-detail">
+										<div class="client-img ">
+											<img alt="Pioneer" src="{% static 'assets/images/testimonial_img1.jpg' %}">
+										</div>
+										<div class="quote">
+											<p>"Majority have suffered alteration in aome from, by injected believable.There varation words
+												able s, but also the leap into electronic typesetting, 1960s with the release of Letraset
+												sheetpassage."
+											</p>
+											<h4 class="sub-title client-title">- Joseph deboungawer - </h4>
+											<div class="designation">Maneger</div>
+										</div>
+									</div>
+									<div class="item client-detail">
+										<div class="client-img ">
+											<img alt="Pioneer" src="{% static 'images/testimonial_img1.jpg' %}">
+										</div>
+										<div class="quote">
+											<p>"Vivamus dignissim lacinia sem dictum commodo dui ultrices eget phasellus id nunc iaculis
+												rutrum felis porttitor tempus sapien. unchanged. It was make a type specimen book. It has
+												survived not only five centuries."
+											</p>
+											<h4 class="sub-title client-title">- Joseph deboungawer -</h4>
+											<div class="designation">Maneger</div>
+										</div>
+									</div>
+									<div class="item client-detail">
+										<div class="client-img ">
+											<img alt="Pioneer" src="{% static 'assets/images/testimonial_img1.jpg' %}">
+										</div>
+										<div class="quote">
+											<p>"Nullam fermentum sem nec urna faucibus ultrices Maecenas Morbi orci in lorem nibh Morbi ac
+												vulputate mi remaining essentially unchanged. It was make a type specimen book. It has survived
+												not only five centuries."</p>
+											<h4 class="sub-title client-title">- Joseph deboungawer -</h4>
+											<div class="designation">Maneger</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTAINER END -->
+
+
+		<!-- FOOTER START -->
+		<div class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer-top">
+						<div class="row">
+							<div class="col-md-4 f-col">
+								<div class="footer-static-block">
+									<span class="opener plus"></span>
+									<div class="f-logo">
+										<a href="/" class="">
+											<img src="{% static 'assets/images/logo.png' %}" width="145px" alt="Pioneer">
+										</a>
+									</div>
+									<ul class="footer-block-contant address-footer">
+										<li class="item">
+											<i class="fa fa-home"></i>
+											<p>R J Jewellers, Shop No 56-57, Gurbaksh Plaza, Jagat Farm, Sector Gamma 1st, Greater Noida. U.P.
+												201310</p>
+										</li>
+										<li class="item">
+											<i class="fa fa-envelope"></i>
+											<p>
+												<a href="mailto:contact.rjjewellers@gmail.com">contact.rjjewellers@gmail.com</a>
+											</p>
+										</li>
+										<li class="item">
+											<i class="fa fa-phone"></i>
+											<p>Mobile / Watsapp – 9871333914, Landline – 0120-4290400</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="row">
+									<div class="col-md-4 f-col">
+										<div class="footer-static-block">
+											<span class="opener plus"></span>
+											<h3 class="title"><span></span>Why Buy</h3>
+											<ul class="footer-block-contant link">
+												<li><a href="diamond">Diamond</a></li>
+												<li><a href="gold">Gold</a></li>
+												<li><a>Kundan</a></li>
+												<li><a>Polki</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4 f-col">
+										<div class="footer-static-block">
+											<span class="opener plus"></span>
+											<h3 class="title"><span></span>Quick Link</h3>
+											<ul class="footer-block-contant link">
+												<li><a href="/">Home</a></li>
+												<li><a href="about">About Us</a></li>
+												<li><a>Media</a></li>
+												<li><a href="contact">Contact</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4 f-col">
+										<div class="footer-static-block">
+											<span class="opener plus"></span>
+											<h3 class="title"><span></span>Company Overview</h3>
+											<div class="footer-block-contant">
+												<p>We are the first 100% Hallmarked Jewellery Showroom in Greater Noida. Highly skilled
+													craftsmen create our products along with stringent quality control measures which creates that
+													perfection in the products we sell.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="footer-middle center-sm">
+						<div class="row">
+							<div class="col-md-7">
+								<div class="site-link mt-30 ">
+									<div class="footer_social pt-xs-15 center-xs mt-xs-15">
+										<ul class="social-icon">
+											<li><a title="Facebook" class="facebook"><i class="fa fa-facebook"> </i></a></li>
+											<li><a title="Twitter" class="twitter"><i class="fa fa-twitter"> </i></a></li>
+											<li><a title="Linkedin" class="linkedin"><i class="fa fa-linkedin"> </i></a></li>
+											<li><a title="RSS" class="rss"><i class="fa fa-rss"> </i></a></li>
+											<li><a title="Pinterest" class="pinterest"><i class="fa fa-pinterest"> </i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5 border-l">
+								<div class="newsletter mtb-30">
+									<div class="newsletter-inner">
+										<div class="newsletter-title">
+											<h3 class="title"><span></span>Subscribe Emails</h3>
+										</div>
+										<form>
+											<div class="newsletter-box">
+												<form method="post" novalidate>
+													{% csrf_token %}
+													<input type="email" placeholder="Email Here...">
+													<button title="Subscribe" class="btn-color">Subscribe</button>
+												</form>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="footer-bottom mtb-30">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="copy-right align-center">© 2020 All Rights Reserved.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scroll-top">
+			<div id="scrollup"></div>
+		</div>
+		<!-- FOOTER END -->
+	</div>
+	<script src="{% static 'assets/js/jquery-1.12.3.min.js' %}"></script>
+	<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'assets/js/jquery-ui.js' %}"></script>
+	<script src="{% static 'assets/js/fotorama.js' %}"></script>
+	<script src="{% static 'assets/js/jquery.magnific-popup.js' %}"></script>
+	<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'assets/js/custom.js' %}"></script>
+
+</body>
+
+</html>
+
+<!-- POP UP NEWS LETTER JS SCRIPT-->

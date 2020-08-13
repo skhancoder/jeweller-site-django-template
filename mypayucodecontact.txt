@@ -1,0 +1,6 @@
+<div class="col-md-4" id="headcon">
+                                <div class="headercontact">
+                                    <img src="{%static 'assets/images/phone-icon.png'%}" width="30px">
+                                    <a>Call us</a>	
+                                </div>
+                            </div>

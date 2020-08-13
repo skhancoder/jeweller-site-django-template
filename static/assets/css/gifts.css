@@ -1,0 +1,38 @@
+#gift{
+    margin: 1%;
+    
+}
+
+.giftproduct{
+    border: 2px solid rgb(237, 237, 237);
+    display: block;
+    background-color: white;
+    border-radius: 5%;
+    -webkit-box-shadow: 2px -1px 14px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px -1px 14px 3px rgba(0,0,0,0.35);
+    box-shadow: 2px -1px 14px 3px rgba(0,0,0,0.35);
+}
+
+.giftproduct:hover{
+    transform: skew(10px,10px);
+    transition-delay: 0.5s;
+    
+}
+
+.giftprice{
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.giftdesc{
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.giftimage{
+    border: 1px solid rgb(237, 237, 237);
+}

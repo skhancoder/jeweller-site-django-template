@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+.row{
+    padding: 2%;
+}
+.col-sm-4{
+    padding: 1%;
+    margin: 0;
+}
+.col-sm-4 img{
+    padding: 1%;
+}
+
+.col-sm-4:hover{
+    -webkit-box-shadow: 2px 4px 31px 6px rgba(194,178,72,1);
+    -moz-box-shadow: 2px 4px 31px 6px rgba(194,178,72,1);
+    box-shadow: 2px 4px 31px 6px rgba(194,178,72,1);
+    border-radius: 1%;
+    transition-delay: 0.2s;
+    transition: 0.3s;
+
+}
+
+#goldtextcont{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+}
+
+#goldtext{
+    text-decoration: none;
+    font-family: 'Lemonada', cursive;
+}
+
+/*Eliminates padding, centers the thumbnail */
+
+#gallery img{
+    object-fit:cover;
+    
+}
+
+.carousel-item img{
+    object-fit: cover;
+    display: inline;
+    
+}
+
+@media (min-width:576px){
+    #gallery img{
+        height: 35vw;
+    }
+    .carousel-item img{
+        height: 350px;
+    }
+}
+@media (min-width:992px){
+    #gallery img{
+        height: 18vw;
+    }    
+}
+
+
+#myImgText{
+    text-align: center;
+    color: black;
+}

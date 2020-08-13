@@ -1,0 +1,25 @@
+#headcon{
+    display: block;
+    float: right;
+    text-align: left;
+    padding: 1%;
+    
+}
+
+.headercontact{
+    
+    font-size: 20px;
+    text-align: right;
+    align-content: right;
+    background-color: black;
+    color: white;  
+}
+
+.headercontact:hover{
+    text-decoration: none;
+}
+
+.headercontact a{ 
+    
+    color: white;
+}

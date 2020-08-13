@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+#jewelup{
+    /* Centers the container in the middle of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    border: 2px solid black;
+    width: 50%;
+}
+#jewelcontainer {
+    perspective: 25px;
+}
+  
+#jewelinner {
+    width: 20em;
+    height: 18em;
+    background-color: white;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+
+#imgcont{
+    background-color: black;
+}
+
+#productgrid{
+    padding: 2%;
+}
+
+#textgrid{
+    padding: 2%;
+    border-bottom: 2px solid rgb(251,213,93);
+    text-align: center;
+    
+}
+
+#containstart{
+    
+    padding: 0%;
+}
+
+#textgridtext{
+    font-family: 'Lemonada', cursive;
+    color: #251D1A;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 200px;
+}
+
+.blockquote text-center{
+    font-size: 40px;
+}
